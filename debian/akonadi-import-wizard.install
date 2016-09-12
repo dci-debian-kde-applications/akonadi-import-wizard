@@ -1,0 +1,7 @@
+etc/xdg/importwizard.categories
+usr/bin/importwizard
+usr/share/applications/org.kde.importwizard.desktop
+usr/share/icons/hicolor/*/apps/kontact-import-wizard.png
+usr/share/importwizard/pics/step1.png
+usr/share/kconf_update/importwizard.upd
+usr/share/kconf_update/importwizard-15.08-kickoff.sh
