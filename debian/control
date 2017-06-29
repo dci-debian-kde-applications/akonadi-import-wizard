@@ -78,7 +78,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-import-wiza
 Package: akonadi-import-wizard
 Section: mail
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: libkf5mailtransport-dev, ${misc:Depends}, ${shlibs:Depends}
 Breaks: ${kde-l10n:all}
 Replaces: ${kde-l10n:all}
 Homepage: http://pim.kde.org/
