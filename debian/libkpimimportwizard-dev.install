@@ -1,3 +1,3 @@
-usr/lib/*/libKPimImportWizard.so
-usr/lib/*/cmake/KPimImportWizard/*
 usr/include/KF5/KPim
+usr/lib/*/cmake/KPimImportWizard/*
+usr/lib/*/libKPimImportWizard.so
