@@ -1,4 +1,4 @@
 usr/include/KF5/KPim
+usr/include/KPim/importwizard_version.h
 usr/lib/*/cmake/KPimImportWizard/*
 usr/lib/*/libKPimImportWizard.so
-usr/include/KPim/importwizard_version.h

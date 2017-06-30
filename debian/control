@@ -78,7 +78,8 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-import-wiza
 Package: libkpimimportwizard-dev
 Section: libdevel
 Architecture: any
-Depends: libkpimimportwizard5  (= ${binary:Version}),
+Depends: libkf5mailtransport-dev,
+         libkpimimportwizard5  (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: PIM data import wizard
@@ -100,8 +101,7 @@ Description: PIM data import wizard
 Package: akonadi-import-wizard
 Section: mail
 Architecture: any
-Depends: libkf5mailtransport-dev,
-         libkpimimportwizard5  (= ${binary:Version}),
+Depends: libkpimimportwizard5  (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Breaks: ${kde-l10n:all}
