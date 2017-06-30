@@ -7,5 +7,4 @@ usr/share/doc
 usr/share/icons
 usr/share/importwizard
 usr/share/kconf_update
-usr/share/lintian/overrides/akonadi-import-wizard
 usr/share/locale
