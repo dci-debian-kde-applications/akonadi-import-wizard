@@ -76,9 +76,9 @@ Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-import-
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-import-wizard.git
 
 Package: libkpimimportwizard-dev
-Section: devel
+Section: libdevel
 Architecture: any
-Depends: libkpimimportwizard5  (= ${source:Version}),
+Depends: libkpimimportwizard5  (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: PIM data import wizard
