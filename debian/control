@@ -78,6 +78,8 @@ Package: akonadi-import-wizard
 Section: mail
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Homepage: http://pim.kde.org/
 Description: PIM data import wizard
  akonadi-import-wizard is an assistant to import PIM data from other
