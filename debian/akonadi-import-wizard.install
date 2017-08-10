@@ -1,8 +1,6 @@
 etc/xdg/importwizard.categories
 etc/xdg/importwizard.renamecategories
-usr/bin/importwizard
 usr/lib/*/qt5/plugins
-usr/share/applications/org.kde.importwizard.desktop
 usr/share/doc
 usr/share/icons
 usr/share/importwizard
