@@ -42,8 +42,12 @@ Architecture: any
 Depends: libkpimimportwizard5  (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends},
-Breaks: ${kde-l10n:all}
-Replaces: ${kde-l10n:all}
+Breaks: kde-l10n-ast (<< 4:17.03.90-0~),
+        kde-l10n-eo (<< 4:17.03.90-0~),
+        ${kde-l10n:all},
+Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
+          kde-l10n-eo (<< 4:17.03.90-0~),
+          ${kde-l10n:all},
 Homepage: http://pim.kde.org/
 Description: PIM data import wizard
  akonadi-import-wizard is an assistant to import PIM data from other
