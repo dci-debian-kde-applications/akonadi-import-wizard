@@ -11,9 +11,26 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>,
 Build-Depends: cmake (>= 3.1~),
                debhelper (>= 9),
+               extra-cmake-modules (>= 5.35.0~),
+               libkf5akonadi-dev (>= 4:5.6.0~),
+               libkf5auth-dev (>= 5.35.0~),
+               libkf5config-dev (>= 5.35.0~),
+               libkf5contacts-dev (>= 4:5.6.0~),
+               libkf5crash-dev (>= 5.35.0~),
+               libkf5dbusaddons-dev (>= 5.35.0~),
+               libkf5doctools-dev (>= 5.35.0~),
+               libkf5identitymanagement-dev (>= 5.6.0~),
+               libkf5kio-dev (>= 5.35.0~),
+               libkf5libkdepim-dev (>= 4:5.6.0~),
+               libkf5mailcommon-dev (>= 4:5.6.0~),
+               libkf5mailimporter-dev (>= 4:5.6.0~),
+               libkf5mailtransport-dev (>= 5.6.0~),
+               libkf5messageviewer-dev (>= 4:5.6.0~),
+               libkf5pimcommon-dev (>= 4:5.6.0~),
+               libkf5wallet-dev (>= 5.35.0~),
                pkg-config,
                pkg-kde-tools (>= 0.12),
-               qtbase5-dev (>= 5.6.0~),
+               qtbase5-dev (>= 5.7.0~),
 Standards-Version: 4.1.0
 Homepage: http://pim.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-import-wizard.git
@@ -35,7 +52,7 @@ Description: PIM data import wizard
 Package: libkpimimportwizard-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5mailtransport-dev,
+Depends: libkf5mailtransport-dev (>= 5.6.0~),
          libkpimimportwizard5  (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends},
