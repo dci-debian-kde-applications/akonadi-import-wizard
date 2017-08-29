@@ -1,1 +1,2 @@
-usr/lib/x86_64-linux-gnu/libKPimImportWizard.so.*
+usr/lib/*/libKPimImportWizard.so.5
+usr/lib/*/libKPimImportWizard.so.5.*
