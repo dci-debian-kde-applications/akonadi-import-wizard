@@ -22,6 +22,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5codecs-dev (>= 5.19.0~),
                libkf5completion-dev (>= 5.16.0~),
                libkf5config-dev (>= 5.19.0~),
+               libkf5contacteditor-dev (>= 17.04.0~),
                libkf5contacts-dev (>= 15.12~),
                libkf5coreaddons-dev (>= 5.16.0~),
                libkf5crash-dev (>= 5.19.0~),
@@ -74,10 +75,35 @@ Homepage: http://pim.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-import-wizard.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-import-wizard.git
 
+Package: libkpimimportwizard-dev
+Section: libdevel
+Architecture: any
+Depends: libkf5mailtransport-dev,
+         libkpimimportwizard5  (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: PIM data import wizard
+ akonadi-import-wizard is an assistant to import PIM data from other
+ applications into Akonadi for use in KDE PIM applications
+ .
+ This package contains the import wizard developmentt files.
+
+Package: libkpimimportwizard5
+Section: libs
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: PIM data import wizard
+ akonadi-import-wizard is an assistant to import PIM data from other
+ applications into Akonadi for use in KDE PIM applications
+ .
+ This package contains the import wizard shared libraries.
+
 Package: akonadi-import-wizard
 Section: mail
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: libkpimimportwizard5  (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Breaks: ${kde-l10n:all}
 Replaces: ${kde-l10n:all}
 Homepage: http://pim.kde.org/
