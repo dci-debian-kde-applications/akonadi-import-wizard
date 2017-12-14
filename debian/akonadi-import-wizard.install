@@ -1,10 +1,14 @@
 etc/xdg/importwizard.categories
 etc/xdg/importwizard.renamecategories
-usr/bin/akonadiimportwizard
+usr/bin/importwizard
 usr/lib/*/qt5/plugins
-usr/share/applications/org.kde.akonadiimportwizard.desktop
+usr/share/applications/org.kde.importwizard.desktop
 usr/share/doc
 usr/share/icons
 usr/share/importwizard
 usr/share/kconf_update
+<<<<<<< HEAD
 usr/share/locale/*/LC_MESSAGES/*
+=======
+usr/share/locale
+>>>>>>> Neon/release
