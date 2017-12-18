@@ -7,8 +7,4 @@ usr/share/doc
 usr/share/icons
 usr/share/importwizard
 usr/share/kconf_update
-<<<<<<< HEAD
-usr/share/locale/*/LC_MESSAGES/*
-=======
 usr/share/locale
->>>>>>> Neon/release
